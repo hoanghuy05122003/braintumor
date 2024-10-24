@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Màu nền */
+    margin: 0; /* Xóa lề mặc định */
+    padding: 20px; /* Khoảng cách bên trong */
+}
+
+.container {
+    max-width: 600px; /* Chiều rộng tối đa */
+    margin: auto; /* Căn giữa */
+    background: white; /* Màu nền của container */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+h1 {
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
+form {
+    display: flex; /* Sử dụng Flexbox để sắp xếp */
+    flex-direction: column; /* Xếp theo cột */
+    align-items: center; /* Căn giữa các phần tử */
+}
+
+input[type="file"] {
+    margin: 10px 0; /* Khoảng cách trên/dưới */
+}
+
+button {
+    background-color: #5cb85c; /* Màu nền của nút */
+    color: white; /* Màu chữ */
+    border: none; /* Không có viền */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    cursor: pointer; /* Con trỏ khi di chuột */
+    border-radius: 5px; /* Bo góc */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Màu nền khi di chuột lên nút */
+}
+
+#result {
+    margin-top: 20px; /* Khoảng cách trên */
+    text-align: center; /* Căn giữa kết quả */
+    font-size: 1.2em; /* Kích thước chữ */
+    color: #333; /* Màu chữ */
+}
+
+#imageContainer {
+    margin-top: 20px; /* Khoảng cách trên */
+    text-align: center; /* Căn giữa */
+}
+
+.uploaded-image {
+    display: none; /* Ẩn hình ảnh mặc định */
+    max-width: 100%; /* Chiều rộng tối đa hình ảnh */
+    height: auto; /* Chiều cao tự động */
+    border-radius: 5px; /* Bo góc cho hình ảnh */
+}
+#imageContainer {
+    margin-top: 20px; /* Khoảng cách trên */
+    text-align: center; /* Căn giữa */
+}
+
+.uploaded-image {
+    display: none; /* Ẩn hình ảnh mặc định */
+    max-width: 100%; /* Chiều rộng tối đa hình ảnh */
+    height: auto; /* Chiều cao tự động */
+    border-radius: 5px; /* Bo góc cho hình ảnh */
+    margin: 0 auto; /* Căn giữa */
+}

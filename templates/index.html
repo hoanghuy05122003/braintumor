@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Đoán U Não</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dự Đoán U Não</h1>
+        <form id="uploadForm" action="/predict" method="post" enctype="multipart/form-data">
+            <label for="fileInput">Chọn tệp</label>
+            <input type="file" id="fileInput" name="file" accept="image/*" required>
+            <button type="submit">Tải lên và Dự đoán</button>
+        </form>
+        <div id="result"></div> <!-- Khu vực hiển thị kết quả -->
+        <div id="imageContainer">
+            <img id="uploadedImage" src="" alt="Hình ảnh đã tải lên" class="uploaded-image"/>
+        </div>
+    </div>
+</body>
+</html>
